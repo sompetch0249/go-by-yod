@@ -4,7 +4,7 @@ import "strconv"
 
 func Say(n int) string {
 	if n%15 == 0 {
-		return "BuzzFizz"
+		return "FizzBuzz"
 	} 
 	if n%5 == 0 {
 		return "Buzz"
@@ -14,3 +14,4 @@ func Say(n int) string {
 	}
 	return strconv.Itoa(n)
 }
+
