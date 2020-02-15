@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/go-by-yod/fizzbuzz"
+	"github.com/go-by-yod/oscar"
 	"github.com/gorilla/mux"
-	"github.com/hello/go-by-yod/fizzbuzz"
-	"github.com/hello/go-by-yod/oscar"
 )
 
 func main() {

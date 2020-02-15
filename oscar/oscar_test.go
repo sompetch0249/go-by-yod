@@ -3,7 +3,7 @@ package oscar_test
 import (
 	"testing"
 
-	"github.com/hello/go-by-yod/oscar"
+	"github.com/go-by-yod/oscar"
 )
 
 func TestActorWhoWonMoreThanOneAward(t *testing.T) {
